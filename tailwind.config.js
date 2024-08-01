@@ -6,7 +6,10 @@ module.exports = {
       colors:{
         "cotton-candy-pink":"#f4a6ae",
       },
-      
+      fontFamily:{
+        "dancing-script":["Dancing Script","sans-serif"],
+        "Josefin Sans":["Josefin Sans","sans-serif"],
+      },
     },
   },
   plugins: [],
