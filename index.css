@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu{
+    display: none;
+    position:absolute;
+
+}
+
+.menu.visible{
+    display:flex;
+    justify-content: end;
+    position: relative;
+}
+
+.menu.hidden-menu{
+    display: none;
+}
+
+.hidden-hamburger{
+    display: none;
+}
