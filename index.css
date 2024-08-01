@@ -8,6 +8,10 @@
 .menu{
     display: none;
     position:absolute;
+    transition: opacity 2ms ease-in, transform 0.4s ease-in;
+    transform: scale(0) translate(-50%,-50%);
+    top:50%;
+    left:50%;
 
 }
 
@@ -15,6 +19,9 @@
     display:flex;
     justify-content: end;
     position: relative;
+    transform: scale(1) translate(-50%,-50%);
+
+   
 }
 
 .menu.hidden-menu{
