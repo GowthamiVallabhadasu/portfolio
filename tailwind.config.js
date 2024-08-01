@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors:{
         "cotton-candy-pink":"#f4a6ae",
+        "baby-pink":"#f5dce2",
       },
       fontFamily:{
         "dancing-script":["Dancing Script","sans-serif"],
