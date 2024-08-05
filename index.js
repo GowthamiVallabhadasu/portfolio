@@ -22,5 +22,27 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 
 
+// toggle between light and dark themes
+
+document.addEventListener('DOMContentLoaded',()=>{
+    const lightTheme=document.getElementById('light-theme')
+    const darkTheme=document.getElementById('dark-theme')
+    if(lightTheme && darkTheme){
+        lightTheme.addEventListener('click',()=>{
+            darkTheme.classList.remove('dark-theme');
+            darkTheme.classList.toggle('visible');
+            lightTheme.classList.toggle('hidden-lighttheme')
+
+        });
+
+        darkTheme.addEventListener('click',()=>{
+            lightTheme.classList.remove('hidden-lighttheme');
+            darkTheme.classList.toggle('dark-theme')
+            darkTheme.classList.remove('visible');
+
+        });
+    }
+
+})
 
 

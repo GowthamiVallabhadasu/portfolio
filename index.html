@@ -10,15 +10,36 @@
 </head>
 <body>
     <div class="home bg-baby-pink" id="home">
-        <div class="nav">
-            <div class="flex justify-end" id="hamburger">
-                <div class="h-20 w-20 rounded-full bg-cotton-candy-pink hover:cursor-pointer my-5 mx-5">
-                    <div class="bg-white h-1 w-10 my-3 mx-5 mt-5 rounded-full"></div>
-                    <div class="bg-white h-1 w-10 my-3 mx-5 rounded-full"></div>
-                    <div class="bg-white h-1 w-10 my-3 mx-5 rounded-full"></div>
+        
+        <div class="flex justify-end">
+            <!-- Toggle between light and dark theme -->
+            <div class="toggle-theme">
+                <div class="flex" id="light-theme">
+                    <div class="sun-image h-20 w-44 rounded-l-full rounded-r-full bg-bright-yellow hover:cursor-pointer my-5 mx-5">
+                        <img src="/images/sun.png" alt="Light mode" class="h-20 w-20">
+                    </div>
+                </div>
+
+                <div class="flex dark-theme" id="dark-theme">
+                    <div class="moon-image h-20 w-44 rounded-l-full rounded-r-full bg-dark-violet hover:cursor-pointer my-5 mx-5">
+                        <img src="/images/moon.png" alt="Light mode" class="h-20 w-20 float-end">
+                    </div>
+                </div>
+
+            </div>
+    
+            <!-- Hamburger navigation bar -->
+            <div class="nav inline-block">
+                <div class="flex justify-end" id="hamburger">
+                    <div class="h-20 w-20 rounded-full bg-cotton-candy-pink hover:cursor-pointer my-5 mx-5">
+                        <div class="bg-white h-1 w-10 my-3 mx-5 mt-5 rounded-full"></div>
+                        <div class="bg-white h-1 w-10 my-3 mx-5 rounded-full"></div>
+                        <div class="bg-white h-1 w-10 my-3 mx-5 rounded-full"></div>
+                    </div>
                 </div>
             </div>
         </div>
+        
       
         <div class="menu flex justify-end fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300" id="menu">
             <div class="h-80 w-80 rounded-bl-full bg-cotton-candy-pink pt-5 flex justify-end">
@@ -36,6 +57,20 @@
                 </nav>
             </div>
             
+        </div>
+
+
+        <!-- monitor screen in the home page -->
+       
+        <div class= "flex justify-center align-middle">
+            <div class="monitor relative h-56 w-96 ml-0 bg-slate-700">
+                
+            </div>    
+        </div>
+        <div class= "flex justify-center align-middle">
+            <div class="monitor-bottom relative h-10 w-96 ml-0 bg-white">
+        
+            </div>  
         </div>
         
     </div>
